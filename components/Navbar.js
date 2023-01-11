@@ -79,16 +79,28 @@ const Navbar = () => {
                     }
                 >
                     <ul>
-                        <li className="p-4 text-4xl hover:text-gray-500 ease-in duration-150">
+                        <li
+                            onClick={handleNav}
+                            className="p-4 text-4xl hover:text-gray-500 ease-in duration-150"
+                        >
                             <Link href="/">Home</Link>
                         </li>
-                        <li className="p-4 text-4xl hover:text-gray-500 ease-in duration-150">
+                        <li
+                            onClick={handleNav}
+                            className="p-4 text-4xl hover:text-gray-500 ease-in duration-150"
+                        >
                             <Link href="/#gallery">Gallery</Link>
                         </li>
-                        <li className="p-4 text-4xl hover:text-gray-500 ease-in duration-150">
+                        <li
+                            onClick={handleNav}
+                            className="p-4 text-4xl hover:text-gray-500 ease-in duration-150"
+                        >
                             <Link href="/portfolio">Work</Link>
                         </li>
-                        <li className="p-4 text-4xl hover:text-gray-500 ease-in duration-150">
+                        <li
+                            onClick={handleNav}
+                            className="p-4 text-4xl hover:text-gray-500 ease-in duration-150"
+                        >
                             <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
